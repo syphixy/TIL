@@ -14,6 +14,8 @@
 		A68A0EBE2A1C51E7009F7E29 /* TILTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68A0EBD2A1C51E7009F7E29 /* TILTests.swift */; };
 		A68A0EC82A1C51E7009F7E29 /* TILUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68A0EC72A1C51E7009F7E29 /* TILUITests.swift */; };
 		A68A0ECA2A1C51E7009F7E29 /* TILUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68A0EC92A1C51E7009F7E29 /* TILUITestsLaunchTests.swift */; };
+		A68A0ED92A1C5626009F7E29 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68A0ED82A1C5626009F7E29 /* WelcomeView.swift */; };
+		A68A0EDB2A1C562E009F7E29 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68A0EDA2A1C562E009F7E29 /* ExerciseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		A68A0EC32A1C51E7009F7E29 /* TILUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TILUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68A0EC72A1C51E7009F7E29 /* TILUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TILUITests.swift; sourceTree = "<group>"; };
 		A68A0EC92A1C51E7009F7E29 /* TILUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TILUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A68A0ED82A1C5626009F7E29 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A68A0EDA2A1C562E009F7E29 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				A68A0EAC2A1C51E5009F7E29 /* TILApp.swift */,
-				A68A0EAE2A1C51E5009F7E29 /* ContentView.swift */,
+				A68A0EDD2A1C567D009F7E29 /* Views */,
 				A68A0EB02A1C51E7009F7E29 /* Assets.xcassets */,
 				A68A0EB22A1C51E7009F7E29 /* Preview Content */,
 			);
@@ -125,6 +129,16 @@
 				A68A0EC92A1C51E7009F7E29 /* TILUITestsLaunchTests.swift */,
 			);
 			path = TILUITests;
+			sourceTree = "<group>";
+		};
+		A68A0EDD2A1C567D009F7E29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A68A0EAE2A1C51E5009F7E29 /* ContentView.swift */,
+				A68A0ED82A1C5626009F7E29 /* WelcomeView.swift */,
+				A68A0EDA2A1C562E009F7E29 /* ExerciseView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			files = (
 				A68A0EAF2A1C51E5009F7E29 /* ContentView.swift in Sources */,
 				A68A0EAD2A1C51E5009F7E29 /* TILApp.swift in Sources */,
+				A68A0ED92A1C5626009F7E29 /* WelcomeView.swift in Sources */,
+				A68A0EDB2A1C562E009F7E29 /* ExerciseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
