@@ -16,6 +16,7 @@
 		A68A0ECA2A1C51E7009F7E29 /* TILUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68A0EC92A1C51E7009F7E29 /* TILUITestsLaunchTests.swift */; };
 		A68A0ED92A1C5626009F7E29 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68A0ED82A1C5626009F7E29 /* WelcomeView.swift */; };
 		A68A0EDB2A1C562E009F7E29 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68A0EDA2A1C562E009F7E29 /* ExerciseView.swift */; };
+		A68A0EDF2A1C5CA0009F7E29 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68A0EDE2A1C5CA0009F7E29 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A68A0EC92A1C51E7009F7E29 /* TILUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TILUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A68A0ED82A1C5626009F7E29 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		A68A0EDA2A1C562E009F7E29 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		A68A0EDE2A1C5CA0009F7E29 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				A68A0EAE2A1C51E5009F7E29 /* ContentView.swift */,
 				A68A0ED82A1C5626009F7E29 /* WelcomeView.swift */,
 				A68A0EDA2A1C562E009F7E29 /* ExerciseView.swift */,
+				A68A0EDE2A1C5CA0009F7E29 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68A0EDF2A1C5CA0009F7E29 /* HeaderView.swift in Sources */,
 				A68A0EAF2A1C51E5009F7E29 /* ContentView.swift in Sources */,
 				A68A0EAD2A1C51E5009F7E29 /* TILApp.swift in Sources */,
 				A68A0ED92A1C5626009F7E29 /* WelcomeView.swift in Sources */,
